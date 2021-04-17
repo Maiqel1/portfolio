@@ -1,0 +1,320 @@
+body{
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section1{
+    width: 100%;
+    height: 95vh;
+    background-image:url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+
+}
+
+ .me{
+    height: 540px;
+    position: absolute;
+    bottom: 40px;
+    left: 60%;
+
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.logo{
+    font-family: RoadTest;
+    color: #000000;
+    font-size: 22px;
+    
+}
+
+.active{
+    font-weight: bold;
+    color: black;
+}
+
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3){
+    font-family: myraid pro regular;
+    font-size: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    /* transform: translate(-13% -42%); */
+}
+
+.text-container button{
+    width: 130px;
+    height: 43px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    margin: 0px 10px;
+
+}
+
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.view-cv{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.about-container{ 
+     width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 1% auto 20px auto;
+    position: relative; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-container img{
+    height: 250px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+}
+
+.about-text p:nth-child(2){
+    color: #3e3d3d;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.about-text button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    color: #ffffff;
+    font-family: calibri;
+    background-color: rgb(5, 4, 3);
+}
+
+.services{
+    display: flex;
+}
+
+.box-1{
+    width: 40%;
+    margin: auto;
+    height: 360px;
+    background-color: rgb(245, 243, 243);
+    align-items: center;
+    text-align: center;
+}
+
+.box-2{
+    width: 40%;
+    margin: auto ;
+    height: 360px;
+   background-image: url(img/img2.jpg);
+   background-size: cover;
+
+}
+
+.box-1 i img{
+    height: 20px;
+}
+
+.box-1 h3{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-1 h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.box-1 p{
+    font-size: 18px;
+
+}
+
+.project-heading{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: green;
+}
+
+.link1,.link2,.link3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+.link1 button,
+.link2 button,
+.link3 button{
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 280px 0px 0px 100px;
+}
+
+.link1{
+    background-image: url(img/img6.png);
+}
+.link2{
+    background-image: url(img/img7.png);
+}
+.link3{
+    background-image: url(img/img8.png);
+}
+.contact-me{
+    width: 95%;
+    margin: auto;
+    height: 280px;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+}
+
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFF;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons{
+    display: flex;
+}
+
+
+.whatsapp{
+    width: 40px;
+    height: 40px;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;   
+}
+
+.linkedin{
+    width: 40px;
+    height: 40px;   
+}
